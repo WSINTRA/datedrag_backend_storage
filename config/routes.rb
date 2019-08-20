@@ -6,6 +6,7 @@ resources :users, only: [:create]
 post '/login', to: 'auth#create'
 get '/profile', to: 'users#profile'
 get '/notes', to: 'notes#index'
+post '/save', to: 'notes#create'
 end
 end
 
