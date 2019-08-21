@@ -18,7 +18,7 @@ class Api::V1::NotesController < ApplicationController
 			get_memo = Memo.create(note_params)
 		end
 
-		render json: get_memo
+		render json: get_user.memos
 	end
 
 	private
