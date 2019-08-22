@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+DateNote backend SQL server, PostgreSQL, Ruby on Rails API for DateNote
+https://github.com/WSINTRA/dateNotes
 
-Things you may want to cover:
+* Ruby version - 2.63
 
-* Ruby version
+* Database initialization - rails db:create && rails db:migrate
 
-* System dependencies
+* Services - See routes.db
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

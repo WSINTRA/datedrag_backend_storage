@@ -1,3 +1,10 @@
+#########################
+#DateNote - created August 2019 
+#current route is api/v1/notes && api/v1/save
+#                       index and create
+########################
+
+
 class Api::V1::NotesController < ApplicationController
 
 	def index

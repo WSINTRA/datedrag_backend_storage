@@ -1,3 +1,8 @@
+#########################
+#DateNote - created August 2019 
+#current route is api/v1/profile
+########################
+
 class Api::V1::UsersController < ApplicationController
 	skip_before_action :authorized, only: [:create]
 
