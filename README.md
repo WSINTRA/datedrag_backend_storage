@@ -9,3 +9,12 @@ https://github.com/WSINTRA/dateNotes
 
 * Services - See routes.db
 
+
+```
+
+git clone https://github.com/WSINTRA/datenotes_backend_storage
+cd datenotes_backend_storage
+bundle install
+rails s -p 3050
+
+```
